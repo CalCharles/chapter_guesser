@@ -93,6 +93,7 @@ if __name__ == '__main__':
                     print("success", book)
                 else: 
                     print("failure", book, chapter, verse)
+                    total += 1
                     continue
             guess = int(input("enter chapter guess: "))
             if guess == chapter:
